@@ -1,0 +1,19 @@
+=== Data Sets ===
+3 Data Sets:
+1) STS 1.6 Million tweets by [i]
+Download: http://help.sentiment140.com/for-students
+
+2) Email data set by [ii]
+
+3) Spam data set [ii]
+
+Download 2 and 3: http://mlkd.csd.auth.gr/concept_drift.html.
+
+References:
+[i] Alec Go, Richa Bhayani, and Lei Huang. 2009. Twitter sentiment classification
+using distant supervision. CS224N Project Report, Stanford 1, 12 (2009).
+
+[ii] Ioannis Katakis, Grigorios Tsoumakas, and Ioannis Vlahavas. 2010. Tracking
+recurring contexts using ensemble classifiers: an application to email filtering.
+Knowledge and Information Systems 22, 3 (2010), 371–391.
+=== ===

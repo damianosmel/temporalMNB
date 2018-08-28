@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: nz.ac.waikato.cms.moa:moa:2017.06">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/moa/moa/2017.06/moa-2017.06.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/moa/moa/2017.06/moa-2017.06-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/moa/moa/2017.06/moa-2017.06-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,23 @@
+--help
+
+~~~Preprocess with local file
+
+--verbose true --run_mode PreprocessSaveDB --collection_location /home/damian/Desktop/commandLineOptions.txt --saved_db_title tweets140 --short_text true --learning_algorithm -1 --evaluation_scheme -1
+
+~~~Evaluate offline with db name
+
+--verbose true --run_mode EvaluateOffline --collection_location /home/damian/Desktop/commandLineOptions.txt --saved_db_title tweets140 --short_text true --learning_algorithm mnb --evaluation_scheme prequential --root_output_directory /home/damian/Desktop/Implementation/test
+
+
+~~~Evaluate online with local file
+
+--verbose true --run_mode EvaluateOnline --collection_location /home/damian/Desktop/commandLineOptions.txt --saved_db_title -1 --short_text true --learning_algorithm mnb --evaluation_scheme prequential
+
+
+~~~Evaluate offline with db name - Ensemble manual window periods
+
+--verbose true --run_mode EvaluateOffline --collection_location /home/damian/Desktop/commandLineOptions.txt --saved_db_title tweets140 --short_text true --learning_algorithm ensemble_1 --evaluation_scheme prequential --root_output_directory /home/damian/Desktop/Implementation/test
+
+
+~~~Ephemeral entities 2015
+--verbose true --run_mode EvaluateOffline --collection_location /home/damian/Desktop/commandLineOptions.txt --saved_db_title tweetsEntities2015 --short_text true --learning_algorithm ensemble_1 --evaluation_scheme prequential --root_output_directory /home/damian/Desktop/Implementation/test

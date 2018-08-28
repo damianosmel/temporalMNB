@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>groupId</groupId>
+    <artifactId>OSCAR</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+<dependencies>
+
+    <!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-core -->
+    <dependency>
+        <groupId>org.twitter4j</groupId>
+        <artifactId>twitter4j-core</artifactId>
+        <version>4.0.6</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
+    <dependency>
+        <groupId>nz.ac.waikato.cms.weka</groupId>
+        <artifactId>weka-stable</artifactId>
+        <version>3.8.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/timeseriesForecasting -->
+    <dependency>
+        <groupId>nz.ac.waikato.cms.weka</groupId>
+        <artifactId>timeseriesForecasting</artifactId>
+        <version>1.1.25</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.moa/moa -->
+   <!-- <dependency>
+        <groupId>nz.ac.waikato.cms.moa</groupId>
+        <artifactId>moa</artifactId>
+        <version>2016.04</version>
+    </dependency>
+    -->
+    <!-- MOA new version for samoa instances -->
+
+<!--    <dependency>
+        <groupId>moa</groupId>
+        <artifactId>moa</artifactId>
+        <version>2017.10-SNAPSHOT</version>
+    </dependency>
+-->
+
+    <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.moa/moa -->
+    <dependency>
+        <groupId>nz.ac.waikato.cms.moa</groupId>
+        <artifactId>moa</artifactId>
+        <version>2017.06</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+    <dependency>
+        <groupId>joda-time</groupId>
+        <artifactId>joda-time</artifactId>
+        <version>2.9.7</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
+    <dependency>
+        <groupId>net.sourceforge.jexcelapi</groupId>
+        <artifactId>jxl</artifactId>
+        <version>2.6.12</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.github.javacliparser/javacliparser -->
+    <dependency>
+        <groupId>com.github.javacliparser</groupId>
+        <artifactId>javacliparser</artifactId>
+        <version>0.5.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>commons-cli</groupId>
+        <artifactId>commons-cli</artifactId>
+        <version>1.3.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+    <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>21.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.6</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.github.rholder/snowball-stemmer -->
+    <dependency>
+        <groupId>com.github.rholder</groupId>
+        <artifactId>snowball-stemmer</artifactId>
+        <version>1.3.0.581.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-math3</artifactId>
+        <version>3.6</version>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/com.github.signaflo/timeseries -->
+    <dependency>
+        <groupId>com.github.signaflo</groupId>
+        <artifactId>timeseries</artifactId>
+        <version>0.4</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.ejml/ejml-core -->
+    <dependency>
+        <groupId>org.ejml</groupId>
+        <artifactId>core</artifactId>
+        <version>0.30</version>
+    </dependency>
+
+
+    <!-- https://stackoverflow.com/questions/7421612/slf4j-failed-to-load-class-org-slf4j-impl-staticloggerbinder -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.5</version>
+    </dependency>
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>1.7.5</version>
+    </dependency>
+
+    <!-- https://github.com/haifengl/smile -->
+    <dependency>
+        <groupId>com.github.haifengl</groupId>
+        <artifactId>smile-core</artifactId>
+        <version>1.3.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.github.haifengl</groupId>
+        <artifactId>smile-math</artifactId>
+        <version>1.3.0</version>
+    </dependency>
+    <dependency>
+        <groupId>nz.ac.waikato.cms.weka</groupId>
+        <artifactId>weka-dev</artifactId>
+        <version>3.9.2</version>
+    </dependency>
+
+
+    <!-- https://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven?page=2&tab=votes#tab-top-->
+</dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>de.l3s.oscar.Main</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
