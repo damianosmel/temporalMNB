@@ -1,6 +1,17 @@
 # TemporalMNB
 
-This is the code for the development of the research work published as "Learning under Feature Drifts in Textual Streams". The method enchances MNB classifiers for feature-evolving streams. It consists of two components. The sketch to adaptively select important features. And the ensemble to predict feature value aggregating predictions of experts each modeling a distinct temporal trend. This work will be presented in CIKM 2018 Torino Italy.
+This is the code for the development of the research work published as "Learning under Feature Drifts in Textual Streams". The method enchances MNB classifiers for feature-evolving streams. It consists of two components. The sketch to adaptively select important features. And the ensemble to predict feature value aggregating predictions of experts each modeling a distinct temporal trend. This work was presented in CIKM 2018 Torino Italy.
+
+## Citation
+'''
+@inproceedings{melidis2018learning,
+  title={Learning under feature drifts in textual streams},
+  author={Melidis, Damianos P and Spiliopoulou, Myra and Ntoutsi, Eirini},
+  booktitle={Proceedings of the 27th ACM International Conference on Information and Knowledge Management},
+  pages={527--536},
+  year={2018}
+}
+'''
 
 ## Getting Started
 
